@@ -1,0 +1,13 @@
+# Ignore the local dataset images and labels
+images/
+labels/
+clean/
+DATA_CLEAN/
+*.zip
+*.jpeg
+*.jpg
+
+# Ignore extra training runs or cache files to keep the repo clean
+runs/cats_v2_improved/
+**/labels.cache
+.ipynb_checkpoints/
